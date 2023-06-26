@@ -1,0 +1,245 @@
+html {
+	font-size: 1vw;
+	margin: auto;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+hr {
+	width: 97%;
+	margin: 0.2em auto;
+	top: 20px;
+    height: 2px;
+    background: black;
+}
+
+h2 {
+	margin: 0;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.articlesection {
+	border: solid 1px black;
+	width: auto;
+	height: auto;
+	padding: 1em 1em;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	margin-top: 0.1em;
+	margin-bottom: 0.5em;
+	text-align: justify;
+	overflow: hidden;
+}
+
+.article-1 {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	height: auto;
+}
+
+.article-1-title {
+	margin: 0;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 9.1vw;
+}
+
+.articletext {
+	font-size: 100%;
+}
+
+.title {
+	margin: 0.5em auto;
+	height: 5em;
+	font-size: 2.2vw;
+	font-family: 'UnifrakturMaguntia', cursive;
+	z-index: 1;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.face {
+	width: 80%;
+	height: 30%;
+}
+
+.videos {
+	width: 52vw;
+}
+
+.exclusive {
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+  	text-align: center;
+	padding: 1em 0.5em;
+	margin-left: 1.5%;
+	margin-right: 0.5em;
+	margin-top: 0.2em;
+	margin-bottom: 0;
+	width: auto;
+	height: 10%;
+	font-size: 2.2vw;
+	font-family: 'Merriweather', serif;
+	background-color: black;
+	color: white;
+}
+
+.exclusive-content {
+	display: flex;
+	align-items: center;
+	width: auto;
+	height: 10%;
+	border: solid 1px black; 
+	padding: 0.9% 0.5%;	
+	margin-top: 0.4em;
+	margin-right: 1.5%;
+}
+
+.flex-container {
+	display: inline-flex;
+}
+
+.flex-child {
+	flex: 1;
+}
+
+.article-2 {
+	float: right;
+	width: 28%;
+	text-align: center;
+}
+
+.article-2-title {
+	padding: 1em;
+	color: white;
+	background-color: black;
+	font-size: 2vw;
+}
+
+.drop-cap {
+	padding: 3% 3%;
+	font-size: 3vw; 
+	text-shadow: 2px 2px gray;
+}
+
+.separator {
+	display: flex;
+	align-items: center;
+}
+
+.smthn span{
+	display: block;
+}
+
+.smthn hr {
+	width: 100%;
+}
+
+.article-3 {
+	width: 45%
+}
+
+.article-4 {
+	float: right;
+	width: 53%; 
+}
+
+.weather {
+	margin: 0.5% 1.5%;
+	text-align: center;
+	font-size: 1.5vw;
+	max-width: 100%;
+	position: relative;
+	color: black;
+}
+
+.weather:before {
+	content: '';
+	display: block;
+	width: 47%;
+	height: 10px;
+	position: absolute;
+	left: 0;
+	top: 30%;
+	z-index: -2;
+
+	border-top: 4px solid black;
+	border-bottom: 2px solid black;
+}
+
+.weather:after {
+	content: '';
+	display: block;
+	width: 47%;
+	height: 10px;
+	position: absolute;
+	right: 0;
+	top: 30%;
+	z-index: -2;
+
+	border-top: 4px solid black;
+	border-bottom: 2px solid black;
+}
+
+.place-weather {
+	text-align: center;
+	font-size: 1.95vw;
+	font-weight: bolder;
+	width: 7em;
+	margin-right: 1.3%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.navbar {
+	margin: 0 1.5%;
+	background-color: black;
+}
+ul{
+	display: flex; 
+	flex-direction: row;
+	list-style-type: none;
+}
+
+li {
+	font-family: 'Merriweather', serif;
+	text-decoration: none;
+	margin: 0 4%;
+	padding: 1%;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover {
+	color: white;
+  	opacity: 0.8;
+}
+
+a:active {
+	opacity: 1;
+	color: gray;
+}
+
+a:visited {
+	color: gray;
+}
+
+a:focus {
+  color: white;
+  opacity: 1;
+}
+
+
